@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(){
+    long long int h, b, c;
+
+    scanf("%lld %lld %lld", &h, &b, &c);
+    printf("%.2lf MB",(double)(h*b*c)/1024/1024/8);
+}

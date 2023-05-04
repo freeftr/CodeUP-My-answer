@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    long long int a, b, d, c, i;
+    scanf("%lld %lld %lld %lld", &a, &b, &d, &c);
+    for(i=0;i<c-1;i++){
+        a=a*b+d;
+    }
+    printf("%lld",a);
+}
